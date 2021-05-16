@@ -1,0 +1,6 @@
+framework module Pods_SingingPandaLive_SingingPandaLiveUITests {
+  umbrella header "Pods-SingingPandaLive-SingingPandaLiveUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

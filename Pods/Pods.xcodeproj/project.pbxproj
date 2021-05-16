@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DFE30FCF49E15E225C11939B2A6F3041 /* OpenTok */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 08B04A48A585BACC18468FDAEB18C30B /* Build configuration list for PBXAggregateTarget "OpenTok" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = OpenTok;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		134EA49EA599F106FD4BDF9C8C45F402 /* Pods-SingingPandaLive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5140796C36E94D39A347B9FE0A5A06 /* Pods-SingingPandaLive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2223C5A18750A748CC412BFF8E6F4CC6 /* Pods-SingingPandaLive-SingingPandaLiveUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6E01E234420CEBB0C8FBFCECBD5D9E /* Pods-SingingPandaLive-SingingPandaLiveUITests-dummy.m */; };
+		2C00C1C0D468440BF30A1E022925E321 /* Pods-SingingPandaLive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B86067B7F9933F2E6402B478DFA809 /* Pods-SingingPandaLive-dummy.m */; };
+		6A44EC3765652B97E21E9E662A15601B /* Pods-SingingPandaLive-SingingPandaLiveUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23AE0CB59EBE823DAA66B4D253421BAD /* Pods-SingingPandaLive-SingingPandaLiveUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8789697EE381653216E26124A6233E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B0B6D8719899BBAF9D4D8A22839FF2A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BC0428C164805FD44CFBD1F35FEC9BDC /* Pods-SingingPandaLiveTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F895C62D3B3532056C28996A8991D95 /* Pods-SingingPandaLiveTests-dummy.m */; };
+		C0720E9F5287E0E8D14A5E09C4230996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FB6B01E2C9F84236292A0103BDDCF3DA /* Pods-SingingPandaLiveTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8644F77C8FF2BFA895E685B368319228 /* Pods-SingingPandaLiveTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F3F368163998CC087D8DE39684F84C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE30FCF49E15E225C11939B2A6F3041;
+			remoteInfo = OpenTok;
+		};
+		9581A2CD70F29CD520D7A9E407918B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAEE56B3680D57B47E45DFCFB4F5143;
+			remoteInfo = "Pods-SingingPandaLive";
+		};
+		F4BEDA5C7388A2CCCA324B8625BF2095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE30FCF49E15E225C11939B2A6F3041;
+			remoteInfo = OpenTok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EBC330AB4FD5D2EF3F598DC2926515 /* Pods-SingingPandaLiveTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SingingPandaLiveTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23AE0CB59EBE823DAA66B4D253421BAD /* Pods-SingingPandaLive-SingingPandaLiveUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SingingPandaLive-SingingPandaLiveUITests-umbrella.h"; sourceTree = "<group>"; };
+		2CA75959FAD04CE2A7ED6AE0155C92F5 /* Pods-SingingPandaLive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SingingPandaLive.modulemap"; sourceTree = "<group>"; };
+		2E18CE301BCE81B995375BB72981C4EC /* Pods-SingingPandaLive-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingingPandaLive-acknowledgements.plist"; sourceTree = "<group>"; };
+		2FC5AEEC8F9D8BB5A0B394FF92753C37 /* Pods-SingingPandaLive-SingingPandaLiveUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingingPandaLive-SingingPandaLiveUITests-Info.plist"; sourceTree = "<group>"; };
+		356C4405BBBED2C9FD9D2AB7E4D81240 /* Pods-SingingPandaLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingingPandaLiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		37BA8278FDDACC067D03B9CCE78D0A9C /* Pods-SingingPandaLive-SingingPandaLiveUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SingingPandaLive-SingingPandaLiveUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4852605AD5EDF97F5DCCA729D680F6AE /* Pods-SingingPandaLive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingingPandaLive-Info.plist"; sourceTree = "<group>"; };
+		4E9C42ED02359918757BDF38EF944D91 /* Pods_SingingPandaLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SingingPandaLiveTests.framework; path = "Pods-SingingPandaLiveTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F895C62D3B3532056C28996A8991D95 /* Pods-SingingPandaLiveTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SingingPandaLiveTests-dummy.m"; sourceTree = "<group>"; };
+		65F04CE52EAC895DF6A27B755C53AF6A /* Pods-SingingPandaLive-SingingPandaLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingingPandaLive-SingingPandaLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6933537393B658A66723F7F0E44514EE /* Pods-SingingPandaLiveTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingingPandaLiveTests-Info.plist"; sourceTree = "<group>"; };
+		6E6E01E234420CEBB0C8FBFCECBD5D9E /* Pods-SingingPandaLive-SingingPandaLiveUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SingingPandaLive-SingingPandaLiveUITests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CCD46C90F6035579751692AFB70E39E /* Pods-SingingPandaLiveTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SingingPandaLiveTests.modulemap"; sourceTree = "<group>"; };
+		8644F77C8FF2BFA895E685B368319228 /* Pods-SingingPandaLiveTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SingingPandaLiveTests-umbrella.h"; sourceTree = "<group>"; };
+		8DA1E338DEF2BD91FD55DE6EABEED1D8 /* Pods-SingingPandaLive-SingingPandaLiveUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SingingPandaLive-SingingPandaLiveUITests.modulemap"; sourceTree = "<group>"; };
+		8F62BFD51D1B879D778195010417D9AF /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenTok.framework; sourceTree = "<group>"; };
+		949EB2F6E51E996216D21CCD3CF020F0 /* OpenTok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenTok.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A36F70B3E70F730EF03A6D19FF2860B7 /* Pods_SingingPandaLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SingingPandaLive.framework; path = "Pods-SingingPandaLive.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790425B030217FF20EB476C06F7AA45 /* Pods-SingingPandaLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingingPandaLive.release.xcconfig"; sourceTree = "<group>"; };
+		ADEB2368556E7196DD0ECFA53530DD99 /* Pods-SingingPandaLiveTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingingPandaLiveTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6B86067B7F9933F2E6402B478DFA809 /* Pods-SingingPandaLive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SingingPandaLive-dummy.m"; sourceTree = "<group>"; };
+		B8C750E29862264D88EA284E6AC4ACDF /* OpenTok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenTok.release.xcconfig; sourceTree = "<group>"; };
+		C34221175E62D535083E538646E95454 /* Pods-SingingPandaLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingingPandaLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3C6040D6945FC16DD897EF07A168F99 /* Pods_SingingPandaLive_SingingPandaLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SingingPandaLive_SingingPandaLiveUITests.framework; path = "Pods-SingingPandaLive-SingingPandaLiveUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C594944350E187CE9FA892A5230C9030 /* Pods-SingingPandaLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingingPandaLive.debug.xcconfig"; sourceTree = "<group>"; };
+		C5DE3035285FCAABFB94AF6EA096C9FB /* Pods-SingingPandaLive-SingingPandaLiveUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingingPandaLive-SingingPandaLiveUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6C471B2A3F09CD66C418407A7FF7CDC /* Pods-SingingPandaLive-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SingingPandaLive-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D458B1BE401C335AAFE5CF94B2BC74D1 /* Pods-SingingPandaLive-SingingPandaLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingingPandaLive-SingingPandaLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD5140796C36E94D39A347B9FE0A5A06 /* Pods-SingingPandaLive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SingingPandaLive-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C30DA8E316238848E8A14CF164C807B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8789697EE381653216E26124A6233E43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA82228BF6169456A16DB0AA9399D4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B6D8719899BBAF9D4D8A22839FF2A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E528DFC5C9E46E3000085D16604A4948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0720E9F5287E0E8D14A5E09C4230996 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49E0F64E00528673E4BBA2853BB3F6C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A36F70B3E70F730EF03A6D19FF2860B7 /* Pods_SingingPandaLive.framework */,
+				C3C6040D6945FC16DD897EF07A168F99 /* Pods_SingingPandaLive_SingingPandaLiveUITests.framework */,
+				4E9C42ED02359918757BDF38EF944D91 /* Pods_SingingPandaLiveTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C60F4E14DB6BD4F36D31A88D88DDCA7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C41D7DF6799868F01A75D1843DAF56EC /* Pods-SingingPandaLive */,
+				9C26B33FB037A0D0F162B14C344BAA01 /* Pods-SingingPandaLive-SingingPandaLiveUITests */,
+				D360BBFD87726B9790348BD7D6E6344A /* Pods-SingingPandaLiveTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8970BD82FAA2CDCB7C006A9AF02B52F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				949EB2F6E51E996216D21CCD3CF020F0 /* OpenTok.debug.xcconfig */,
+				B8C750E29862264D88EA284E6AC4ACDF /* OpenTok.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenTok";
+			sourceTree = "<group>";
+		};
+		9C26B33FB037A0D0F162B14C344BAA01 /* Pods-SingingPandaLive-SingingPandaLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA1E338DEF2BD91FD55DE6EABEED1D8 /* Pods-SingingPandaLive-SingingPandaLiveUITests.modulemap */,
+				37BA8278FDDACC067D03B9CCE78D0A9C /* Pods-SingingPandaLive-SingingPandaLiveUITests-acknowledgements.markdown */,
+				C5DE3035285FCAABFB94AF6EA096C9FB /* Pods-SingingPandaLive-SingingPandaLiveUITests-acknowledgements.plist */,
+				6E6E01E234420CEBB0C8FBFCECBD5D9E /* Pods-SingingPandaLive-SingingPandaLiveUITests-dummy.m */,
+				2FC5AEEC8F9D8BB5A0B394FF92753C37 /* Pods-SingingPandaLive-SingingPandaLiveUITests-Info.plist */,
+				23AE0CB59EBE823DAA66B4D253421BAD /* Pods-SingingPandaLive-SingingPandaLiveUITests-umbrella.h */,
+				65F04CE52EAC895DF6A27B755C53AF6A /* Pods-SingingPandaLive-SingingPandaLiveUITests.debug.xcconfig */,
+				D458B1BE401C335AAFE5CF94B2BC74D1 /* Pods-SingingPandaLive-SingingPandaLiveUITests.release.xcconfig */,
+			);
+			name = "Pods-SingingPandaLive-SingingPandaLiveUITests";
+			path = "Target Support Files/Pods-SingingPandaLive-SingingPandaLiveUITests";
+			sourceTree = "<group>";
+		};
+		AA15DA48691E371C76F61707E2A309F0 /* OpenTok */ = {
+			isa = PBXGroup;
+			children = (
+				BDE9CF5E7B447938A268B780E484CD38 /* Frameworks */,
+				8970BD82FAA2CDCB7C006A9AF02B52F9 /* Support Files */,
+			);
+			name = OpenTok;
+			path = OpenTok;
+			sourceTree = "<group>";
+		};
+		BDE9CF5E7B447938A268B780E484CD38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F62BFD51D1B879D778195010417D9AF /* OpenTok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C41D7DF6799868F01A75D1843DAF56EC /* Pods-SingingPandaLive */ = {
+			isa = PBXGroup;
+			children = (
+				2CA75959FAD04CE2A7ED6AE0155C92F5 /* Pods-SingingPandaLive.modulemap */,
+				C6C471B2A3F09CD66C418407A7FF7CDC /* Pods-SingingPandaLive-acknowledgements.markdown */,
+				2E18CE301BCE81B995375BB72981C4EC /* Pods-SingingPandaLive-acknowledgements.plist */,
+				B6B86067B7F9933F2E6402B478DFA809 /* Pods-SingingPandaLive-dummy.m */,
+				4852605AD5EDF97F5DCCA729D680F6AE /* Pods-SingingPandaLive-Info.plist */,
+				DD5140796C36E94D39A347B9FE0A5A06 /* Pods-SingingPandaLive-umbrella.h */,
+				C594944350E187CE9FA892A5230C9030 /* Pods-SingingPandaLive.debug.xcconfig */,
+				A790425B030217FF20EB476C06F7AA45 /* Pods-SingingPandaLive.release.xcconfig */,
+			);
+			name = "Pods-SingingPandaLive";
+			path = "Target Support Files/Pods-SingingPandaLive";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FEE1E9BD3BDE833A0A8954592B70BF1C /* Pods */,
+				49E0F64E00528673E4BBA2853BB3F6C1 /* Products */,
+				4C60F4E14DB6BD4F36D31A88D88DDCA7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D360BBFD87726B9790348BD7D6E6344A /* Pods-SingingPandaLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD46C90F6035579751692AFB70E39E /* Pods-SingingPandaLiveTests.modulemap */,
+				04EBC330AB4FD5D2EF3F598DC2926515 /* Pods-SingingPandaLiveTests-acknowledgements.markdown */,
+				ADEB2368556E7196DD0ECFA53530DD99 /* Pods-SingingPandaLiveTests-acknowledgements.plist */,
+				5F895C62D3B3532056C28996A8991D95 /* Pods-SingingPandaLiveTests-dummy.m */,
+				6933537393B658A66723F7F0E44514EE /* Pods-SingingPandaLiveTests-Info.plist */,
+				8644F77C8FF2BFA895E685B368319228 /* Pods-SingingPandaLiveTests-umbrella.h */,
+				C34221175E62D535083E538646E95454 /* Pods-SingingPandaLiveTests.debug.xcconfig */,
+				356C4405BBBED2C9FD9D2AB7E4D81240 /* Pods-SingingPandaLiveTests.release.xcconfig */,
+			);
+			name = "Pods-SingingPandaLiveTests";
+			path = "Target Support Files/Pods-SingingPandaLiveTests";
+			sourceTree = "<group>";
+		};
+		FEE1E9BD3BDE833A0A8954592B70BF1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA15DA48691E371C76F61707E2A309F0 /* OpenTok */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00719CD23D8278FE4AD3B83511B9C1F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6B01E2C9F84236292A0103BDDCF3DA /* Pods-SingingPandaLiveTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F20F138A5363D8912E6876186860BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A44EC3765652B97E21E9E662A15601B /* Pods-SingingPandaLive-SingingPandaLiveUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8006F78E2819F0A3B6E2A1C1F4B984D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134EA49EA599F106FD4BDF9C8C45F402 /* Pods-SingingPandaLive-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B4FA3764CF16C54575B3C1538E173678 /* Pods-SingingPandaLive-SingingPandaLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3940236898C646D89217D089C1D722 /* Build configuration list for PBXNativeTarget "Pods-SingingPandaLive-SingingPandaLiveUITests" */;
+			buildPhases = (
+				07F20F138A5363D8912E6876186860BF /* Headers */,
+				C0ECA1B985F77C772EAA5877B478C264 /* Sources */,
+				E528DFC5C9E46E3000085D16604A4948 /* Frameworks */,
+				3595A5F0F502F7BD1301FCF5EA34FC4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EE398B919304D3EE203F780632C1F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SingingPandaLive-SingingPandaLiveUITests";
+			productName = "Pods-SingingPandaLive-SingingPandaLiveUITests";
+			productReference = C3C6040D6945FC16DD897EF07A168F99 /* Pods_SingingPandaLive_SingingPandaLiveUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDEE2F9B6C4365374441FE3C88CD5FB1 /* Pods-SingingPandaLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC2A1A3AA93B7D2CA7BF58BB5BF7638 /* Build configuration list for PBXNativeTarget "Pods-SingingPandaLiveTests" */;
+			buildPhases = (
+				00719CD23D8278FE4AD3B83511B9C1F6 /* Headers */,
+				2A57D6004A9EC6DA2ECE60B5AC82534B /* Sources */,
+				6C30DA8E316238848E8A14CF164C807B /* Frameworks */,
+				71C093F2E8904509EA15A489BF5D8DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6290F4A3D7DC67E405339409433425 /* PBXTargetDependency */,
+			);
+			name = "Pods-SingingPandaLiveTests";
+			productName = "Pods-SingingPandaLiveTests";
+			productReference = 4E9C42ED02359918757BDF38EF944D91 /* Pods_SingingPandaLiveTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAEE56B3680D57B47E45DFCFB4F5143 /* Pods-SingingPandaLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FDE7A1ACA1D64F1DAF58CBF8A7F2A7 /* Build configuration list for PBXNativeTarget "Pods-SingingPandaLive" */;
+			buildPhases = (
+				C8006F78E2819F0A3B6E2A1C1F4B984D /* Headers */,
+				50ADC92AA74C67AAA7BEA7B0960581D7 /* Sources */,
+				DA82228BF6169456A16DB0AA9399D4D8 /* Frameworks */,
+				4DB58A7CB666B8D7EC6DF64B4053C934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C73455561F27C3B101FE68D8E10363 /* PBXTargetDependency */,
+			);
+			name = "Pods-SingingPandaLive";
+			productName = "Pods-SingingPandaLive";
+			productReference = A36F70B3E70F730EF03A6D19FF2860B7 /* Pods_SingingPandaLive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 49E0F64E00528673E4BBA2853BB3F6C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE30FCF49E15E225C11939B2A6F3041 /* OpenTok */,
+				EAAEE56B3680D57B47E45DFCFB4F5143 /* Pods-SingingPandaLive */,
+				B4FA3764CF16C54575B3C1538E173678 /* Pods-SingingPandaLive-SingingPandaLiveUITests */,
+				DDEE2F9B6C4365374441FE3C88CD5FB1 /* Pods-SingingPandaLiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3595A5F0F502F7BD1301FCF5EA34FC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB58A7CB666B8D7EC6DF64B4053C934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C093F2E8904509EA15A489BF5D8DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A57D6004A9EC6DA2ECE60B5AC82534B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0428C164805FD44CFBD1F35FEC9BDC /* Pods-SingingPandaLiveTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50ADC92AA74C67AAA7BEA7B0960581D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C00C1C0D468440BF30A1E022925E321 /* Pods-SingingPandaLive-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0ECA1B985F77C772EAA5877B478C264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2223C5A18750A748CC412BFF8E6F4CC6 /* Pods-SingingPandaLive-SingingPandaLiveUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6290F4A3D7DC67E405339409433425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SingingPandaLive";
+			target = EAAEE56B3680D57B47E45DFCFB4F5143 /* Pods-SingingPandaLive */;
+			targetProxy = 9581A2CD70F29CD520D7A9E407918B3C /* PBXContainerItemProxy */;
+		};
+		42EE398B919304D3EE203F780632C1F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenTok;
+			target = DFE30FCF49E15E225C11939B2A6F3041 /* OpenTok */;
+			targetProxy = 7F3F368163998CC087D8DE39684F84C1 /* PBXContainerItemProxy */;
+		};
+		C0C73455561F27C3B101FE68D8E10363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenTok;
+			target = DFE30FCF49E15E225C11939B2A6F3041 /* OpenTok */;
+			targetProxy = F4BEDA5C7388A2CCCA324B8625BF2095 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5C4AD121EF857BF6B376563AC7EAA94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C750E29862264D88EA284E6AC4ACDF /* OpenTok.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		860BF3E72E85C3CA10766BB9FB684C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A790425B030217FF20EB476C06F7AA45 /* Pods-SingingPandaLive.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SingingPandaLive/Pods-SingingPandaLive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SingingPandaLive/Pods-SingingPandaLive.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F99F7A1CA328297BFD70414DE1E1B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C594944350E187CE9FA892A5230C9030 /* Pods-SingingPandaLive.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SingingPandaLive/Pods-SingingPandaLive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SingingPandaLive/Pods-SingingPandaLive.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B389C90AB09DD7D2E7AC4FD31BD0E428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F04CE52EAC895DF6A27B755C53AF6A /* Pods-SingingPandaLive-SingingPandaLiveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SingingPandaLive-SingingPandaLiveUITests/Pods-SingingPandaLive-SingingPandaLiveUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SingingPandaLive-SingingPandaLiveUITests/Pods-SingingPandaLive-SingingPandaLiveUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBB9D49778FB496CC43F7C61DF1446DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34221175E62D535083E538646E95454 /* Pods-SingingPandaLiveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SingingPandaLiveTests/Pods-SingingPandaLiveTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SingingPandaLiveTests/Pods-SingingPandaLiveTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED42AAE8C67FB53954BFE1C40AB37CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D458B1BE401C335AAFE5CF94B2BC74D1 /* Pods-SingingPandaLive-SingingPandaLiveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SingingPandaLive-SingingPandaLiveUITests/Pods-SingingPandaLive-SingingPandaLiveUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SingingPandaLive-SingingPandaLiveUITests/Pods-SingingPandaLive-SingingPandaLiveUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1EA34F4B275484960E569871F85F3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356C4405BBBED2C9FD9D2AB7E4D81240 /* Pods-SingingPandaLiveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SingingPandaLiveTests/Pods-SingingPandaLiveTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SingingPandaLiveTests/Pods-SingingPandaLiveTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBD9D572353A7CEDCB449A856271119D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949EB2F6E51E996216D21CCD3CF020F0 /* OpenTok.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B04A48A585BACC18468FDAEB18C30B /* Build configuration list for PBXAggregateTarget "OpenTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD9D572353A7CEDCB449A856271119D /* Debug */,
+				5C4AD121EF857BF6B376563AC7EAA94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3940236898C646D89217D089C1D722 /* Build configuration list for PBXNativeTarget "Pods-SingingPandaLive-SingingPandaLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B389C90AB09DD7D2E7AC4FD31BD0E428 /* Debug */,
+				ED42AAE8C67FB53954BFE1C40AB37CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FDE7A1ACA1D64F1DAF58CBF8A7F2A7 /* Build configuration list for PBXNativeTarget "Pods-SingingPandaLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F99F7A1CA328297BFD70414DE1E1B6C /* Debug */,
+				860BF3E72E85C3CA10766BB9FB684C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC2A1A3AA93B7D2CA7BF58BB5BF7638 /* Build configuration list for PBXNativeTarget "Pods-SingingPandaLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB9D49778FB496CC43F7C61DF1446DD /* Debug */,
+				F1EA34F4B275484960E569871F85F3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

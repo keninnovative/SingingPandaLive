@@ -1,0 +1,6 @@
+framework module Pods_SingingPandaLive {
+  umbrella header "Pods-SingingPandaLive-umbrella.h"
+
+  export *
+  module * { export * }
+}
