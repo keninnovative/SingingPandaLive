@@ -8,5 +8,5 @@
 import Foundation
 
 enum OpenTokConstants {
-    static let apiKey = "47229634"
+    static let getSessionApiURL = URL(string: "https://singingpandaphp.herokuapp.com/room/session")!
 }

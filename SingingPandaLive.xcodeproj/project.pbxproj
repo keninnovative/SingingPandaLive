@@ -15,6 +15,7 @@
 		158DF26B2650B35A009F48A2 /* SingingPandaLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DF26A2650B35A009F48A2 /* SingingPandaLiveTests.swift */; };
 		158DF2762650B35A009F48A2 /* SingingPandaLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DF2752650B35A009F48A2 /* SingingPandaLiveUITests.swift */; };
 		158DF2882650B41F009F48A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DF2872650B41F009F48A2 /* Constants.swift */; };
+		15DC6EDE26513AB400B53A37 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DC6EDD26513AB400B53A37 /* WebService.swift */; };
 		2ACA50C21F2EE39D1998079B /* Pods_SingingPandaLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C06AB82779B4B189065F02 /* Pods_SingingPandaLiveTests.framework */; };
 		5A0FDED29FBD786E7E7A82A0 /* Pods_SingingPandaLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74730A9F7C1405605CB30C21 /* Pods_SingingPandaLive.framework */; };
 		CB493A2D8DC147A9599B1A4A /* Pods_SingingPandaLive_SingingPandaLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D50CEB99B1142F14FFDCFA /* Pods_SingingPandaLive_SingingPandaLiveUITests.framework */; };
@@ -53,6 +54,7 @@
 		158DF2752650B35A009F48A2 /* SingingPandaLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingingPandaLiveUITests.swift; sourceTree = "<group>"; };
 		158DF2772650B35A009F48A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		158DF2872650B41F009F48A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		15DC6EDD26513AB400B53A37 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		1C5D09B183A0B836B83F3F21 /* Pods-SingingPandaLive-SingingPandaLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingingPandaLive-SingingPandaLiveUITests.debug.xcconfig"; path = "Target Support Files/Pods-SingingPandaLive-SingingPandaLiveUITests/Pods-SingingPandaLive-SingingPandaLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		28D50CEB99B1142F14FFDCFA /* Pods_SingingPandaLive_SingingPandaLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SingingPandaLive_SingingPandaLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		573FC9128996BF52E49ED969 /* Pods-SingingPandaLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingingPandaLiveTests.release.xcconfig"; path = "Target Support Files/Pods-SingingPandaLiveTests/Pods-SingingPandaLiveTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		158DF24F2650B355009F48A2 /* SingingPandaLive */ = {
 			isa = PBXGroup;
 			children = (
+				15DC6EDC26513A7A00B53A37 /* AppService */,
 				158DF2862650B405009F48A2 /* Model */,
 				156C0CD92650B97F00AC1735 /* View */,
 				158DF2502650B355009F48A2 /* AppDelegate.swift */,
@@ -159,6 +162,14 @@
 				158DF2872650B41F009F48A2 /* Constants.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		15DC6EDC26513A7A00B53A37 /* AppService */ = {
+			isa = PBXGroup;
+			children = (
+				15DC6EDD26513AB400B53A37 /* WebService.swift */,
+			);
+			path = AppService;
 			sourceTree = "<group>";
 		};
 		3EA3E52775BAE46A25F3829B /* Pods */ = {
@@ -388,6 +399,7 @@
 				158DF2882650B41F009F48A2 /* Constants.swift in Sources */,
 				158DF25B2650B355009F48A2 /* SingingPandaLive.xcdatamodeld in Sources */,
 				158DF2552650B355009F48A2 /* HomeViewController.swift in Sources */,
+				15DC6EDE26513AB400B53A37 /* WebService.swift in Sources */,
 				158DF2512650B355009F48A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
